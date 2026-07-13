@@ -1,7 +1,7 @@
 # skorpikon.eu profile website
 
 Security-oriented static website:
-- Static HTML/CSS only
+- Static HTML/CSS only 
 - No JavaScript
 - No forms
 - No cookies
