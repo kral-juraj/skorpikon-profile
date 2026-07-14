@@ -1,7 +1,9 @@
 # skorpikon.eu profile website
 
-Security-oriented static website:
-- Static HTML/CSS only 
+Static personal website for Juraj Kráľ.
+
+Security-oriented choices:
+- Static HTML/CSS only
 - No JavaScript
 - No forms
 - No cookies
