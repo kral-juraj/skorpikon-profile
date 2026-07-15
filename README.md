@@ -161,3 +161,12 @@ Or, if using direct static upload, upload the contents of this ZIP root.
 - "10+ years" and "AI practice" are stacked vertically in the left column.
 - "7 roles / 7 pozícií" is placed in a wider column on the right.
 - Role links were adjusted to fit on single lines more comfortably.
+
+
+## v20 update
+
+- Reworked the hero metadata layout again for better visual balance.
+- Left column contains "10+ years" and "AI practice" stacked vertically.
+- Right column contains a wider "7 roles" card.
+- Role link labels were shortened so each role fits more cleanly on one line.
+- Added cache-busted CSS file `assets/css/style-v20-hero.css?v=20`.
