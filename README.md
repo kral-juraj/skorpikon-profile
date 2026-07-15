@@ -153,3 +153,11 @@ Or, if using direct static upload, upload the contents of this ZIP root.
 
 - Updated the role links in the "7 roles / 7 pozícií" card.
 - Each link now includes the role title plus the company/project name.
+
+
+## v19 update
+
+- Reworked the hero metadata cards layout.
+- "10+ years" and "AI practice" are stacked vertically in the left column.
+- "7 roles / 7 pozícií" is placed in a wider column on the right.
+- Role links were adjusted to fit on single lines more comfortably.

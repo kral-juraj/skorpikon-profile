@@ -320,3 +320,63 @@
   line-height: 1.15 !important;
   font-weight: 650 !important;
 }
+
+/* v19 hero meta layout */
+.hero-meta-layout{
+  display:grid !important;
+  grid-template-columns:minmax(220px, 0.95fr) minmax(420px, 1.55fr) !important;
+  gap:18px !important;
+  align-items:start !important;
+  margin-top:18px !important;
+}
+.meta-stack-col{
+  display:grid !important;
+  grid-template-rows:auto auto !important;
+  gap:18px !important;
+}
+.meta-wide-col{
+  display:block !important;
+}
+.meta-wide-col > .meta.meta-roles{
+  min-height:100% !important;
+}
+.meta.meta-roles > .meta-role-links{
+  margin-top:10px !important;
+}
+.meta.meta-roles > .meta-role-links > li{
+  white-space:nowrap !important;
+}
+.meta.meta-roles > .meta-role-links > li > a{
+  font-size:9.3px !important;
+  line-height:1.2 !important;
+  white-space:nowrap !important;
+}
+@media (max-width: 1200px){
+  .hero-meta-layout{
+    grid-template-columns:minmax(200px, 0.9fr) minmax(360px, 1.4fr) !important;
+  }
+  .meta.meta-roles > .meta-role-links > li > a{
+    font-size:8.8px !important;
+  }
+}
+@media (max-width: 900px){
+  .hero-meta-layout{
+    grid-template-columns:1fr !important;
+  }
+  .meta-stack-col{
+    grid-template-columns:1fr 1fr !important;
+    grid-template-rows:none !important;
+  }
+  .meta.meta-roles > .meta-role-links > li{
+    white-space:normal !important;
+  }
+  .meta.meta-roles > .meta-role-links > li > a{
+    white-space:normal !important;
+    font-size:9.2px !important;
+  }
+}
+@media (max-width: 640px){
+  .meta-stack-col{
+    grid-template-columns:1fr !important;
+  }
+}
