@@ -170,3 +170,10 @@ Or, if using direct static upload, upload the contents of this ZIP root.
 - Right column contains a wider "7 roles" card.
 - Role link labels were shortened so each role fits more cleanly on one line.
 - Added cache-busted CSS file `assets/css/style-v20-hero.css?v=20`.
+
+
+## v21 update
+
+- Updated "7 roles / 7 pozícií" role-link labels to the requested company/project format.
+- Removed underline / dotted border styling from role links.
+- Added cache-busted CSS file `assets/css/style-v21-roles.css?v=21`.
