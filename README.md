@@ -121,3 +121,10 @@ Or, if using direct static upload, upload the contents of this ZIP root.
 - Rebuilt Certifications section with new class names: `cv-cert-list`, `cv-cert-row`, `cv-cert-icon`.
 - Added versioned CSS file `assets/css/style-v13-certfix.css?v=13` to avoid stale browser/Cloudflare cache.
 - Certificate icons are forced to 22x22 px inside a 30x30 px bullet container.
+
+
+## v14 update
+
+- Removed the standalone "Jump directly to a role" block.
+- Moved the role links into the "7 roles / 7 pozícií" meta card as smaller, less prominent clickable links.
+- Each role still links directly to its corresponding job-description anchor.
