@@ -63,3 +63,23 @@ Or, if using direct static upload, upload the contents of this ZIP root.
 - No external CDN dependencies
 - CV PDFs served as static files
 - Cloudflare `_headers` file includes basic security headers
+
+
+## v6 update
+
+- Intro text no longer says "two-page CV" / "dvojstranové CV".
+- EN and SK CV PDFs now include a visible and clickable link to https://skorpikon.eu.
+
+
+## v7 update
+
+- Added visible Certifications & training section to EN and SK website pages.
+- The website is now positioned as a complete professional profile, while the PDF CV remains a compact two-page version.
+- Added certification badge/logo assets under `assets/img/certifications/`.
+
+
+## v8 update
+
+- Added dropdown navigation under Experience / Skúsenosti.
+- Each job section now has a stable anchor, for example `#job-02-michelin-connected-fleet`.
+- Users can jump directly to a specific job without scrolling through the full page.
