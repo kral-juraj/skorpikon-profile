@@ -92,3 +92,10 @@ Or, if using direct static upload, upload the contents of this ZIP root.
 - The dropdown appears only on hover or keyboard focus.
 - Clicking Experience / Skúsenosti still jumps to the beginning of the experience section.
 - Clicking a specific job jumps directly to that job block.
+
+
+## v10 update
+
+- Removed the Experience / Skúsenosti dropdown from the top menu.
+- Added a visible role-link panel in the hero area near the "7 roles / 7 pozícií" summary.
+- Each listed role links directly to its job-description block.

@@ -30,6 +30,11 @@
   .nav-dropdown-trigger:after{display:inline}
 }
 
-/* v9 hover-only dropdown fix:
-   Experience / Skúsenosti stays clickable.
-   Job list is hidden by default and appears only on hover or keyboard focus. */
+
+.role-link-panel{margin-top:18px;background:#fff;border:1px solid var(--line);border-radius:16px;padding:16px}
+.role-link-heading{font-weight:900;color:#16466f;margin-bottom:4px}
+.role-link-panel p{margin:0 0 12px;color:var(--muted);font-size:14px}
+.role-link-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:8px}
+.role-link-grid a{display:block;border:1px solid #c7ddeb;background:#f8fcff;border-radius:12px;padding:9px 10px;color:#16466f;font-size:13px;font-weight:800}
+.role-link-grid a:hover{text-decoration:none;background:#eef8fc}
+@media(max-width:640px){.role-link-grid{grid-template-columns:1fr}}
