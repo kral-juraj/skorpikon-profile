@@ -99,3 +99,11 @@ Or, if using direct static upload, upload the contents of this ZIP root.
 - Removed the Experience / Skúsenosti dropdown from the top menu.
 - Added a visible role-link panel in the hero area near the "7 roles / 7 pozícií" summary.
 - Each listed role links directly to its job-description block.
+
+
+## v11 update
+
+- Reworked Certificates section into a compact CV-style certification block.
+- Certificates are now a standalone section before Experience / Skúsenosti.
+- Large certificate cards were removed; badge/logo size is smaller and closer to the PDF CV style.
+- Training is separated as a small related-training note below the main certificates.
