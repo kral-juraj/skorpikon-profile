@@ -313,3 +313,10 @@
     font-size: 8.8px !important;
   }
 }
+
+/* v18 role link labels include position title */
+.meta.meta-roles > .meta-role-links > li > a {
+  font-size: 8.6px !important;
+  line-height: 1.15 !important;
+  font-weight: 650 !important;
+}

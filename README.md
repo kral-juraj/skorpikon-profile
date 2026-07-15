@@ -147,3 +147,9 @@ Or, if using direct static upload, upload the contents of this ZIP root.
 
 - Replaced PDF CV files with updated versions where Core Skills chips have a single clean outline instead of duplicated bubble borders.
 - Updated both EN and SK PDF CV files under `cv/`.
+
+
+## v18 update
+
+- Updated the role links in the "7 roles / 7 pozícií" card.
+- Each link now includes the role title plus the company/project name.
