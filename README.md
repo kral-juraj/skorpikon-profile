@@ -114,3 +114,10 @@ Or, if using direct static upload, upload the contents of this ZIP root.
 - Removed the explanatory intro sentence from the Certifications section.
 - Reworked certifications into a vertical list layout.
 - Certification logos are now small bullet-like icons instead of large cards.
+
+
+## v13 cert fix
+
+- Rebuilt Certifications section with new class names: `cv-cert-list`, `cv-cert-row`, `cv-cert-icon`.
+- Added versioned CSS file `assets/css/style-v13-certfix.css?v=13` to avoid stale browser/Cloudflare cache.
+- Certificate icons are forced to 22x22 px inside a 30x30 px bullet container.
