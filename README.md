@@ -134,3 +134,10 @@ Or, if using direct static upload, upload the contents of this ZIP root.
 
 - Reduced the font size of role links inside the "7 roles / 7 pozícií" meta card.
 - Links are now visually secondary and less prominent.
+
+
+## v16 update
+
+- Fixed role-link styling not applying because of old/cached CSS.
+- Added new cache-busted CSS file: `assets/css/style-v16-rolelinks.css?v=16`.
+- Forced the "7 roles / 7 pozícií" links to be a small, bulletless, subtle list.
