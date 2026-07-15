@@ -141,3 +141,9 @@ Or, if using direct static upload, upload the contents of this ZIP root.
 - Fixed role-link styling not applying because of old/cached CSS.
 - Added new cache-busted CSS file: `assets/css/style-v16-rolelinks.css?v=16`.
 - Forced the "7 roles / 7 pozícií" links to be a small, bulletless, subtle list.
+
+
+## v17 update
+
+- Replaced PDF CV files with updated versions where Core Skills chips have a single clean outline instead of duplicated bubble borders.
+- Updated both EN and SK PDF CV files under `cv/`.
