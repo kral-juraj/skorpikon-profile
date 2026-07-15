@@ -128,3 +128,9 @@ Or, if using direct static upload, upload the contents of this ZIP root.
 - Removed the standalone "Jump directly to a role" block.
 - Moved the role links into the "7 roles / 7 pozícií" meta card as smaller, less prominent clickable links.
 - Each role still links directly to its corresponding job-description anchor.
+
+
+## v15 update
+
+- Reduced the font size of role links inside the "7 roles / 7 pozícií" meta card.
+- Links are now visually secondary and less prominent.
