@@ -39,20 +39,20 @@
 .role-link-grid a:hover{text-decoration:none;background:#eef8fc}
 @media(max-width:640px){.role-link-grid{grid-template-columns:1fr}}
 
-/* v11 CV-style certifications */
-.cert-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:10px;margin-top:10px}
-.cert-card{display:flex;flex-direction:column;align-items:center;text-align:center;background:#fff;border:1px solid var(--line);border-radius:14px;padding:12px 9px;min-height:0}
-.cert-logo{width:54px;height:54px;border:1px solid #c7ddeb;border-radius:12px;background:#f8fcff;display:grid;place-items:center;overflow:hidden;margin-bottom:8px}
-.cert-logo img{width:100%;height:100%;object-fit:contain;padding:5px}
-.cert-logo.fallback{font-weight:900;color:#16466f;font-size:13px;text-align:center;padding:6px}
-.cert-card h3{margin:0 0 4px;color:#174d77;font-size:13px;line-height:1.2}
-.cert-meta{margin:0;color:#52728a;font-weight:800;font-size:11px;line-height:1.25}
+
+/* v12 compact certification list */
+.cert-grid{display:grid;grid-template-columns:1fr;gap:8px;margin-top:8px}
+.cert-card{display:grid;grid-template-columns:36px 1fr;gap:10px;align-items:center;text-align:left;background:#fff;border:1px solid var(--line);border-radius:12px;padding:9px 11px;min-height:0}
+.cert-logo{width:32px;height:32px;border:1px solid #c7ddeb;border-radius:9px;background:#f8fcff;display:grid;place-items:center;overflow:hidden;margin:0}
+.cert-logo img{width:100%;height:100%;object-fit:contain;padding:3px}
+.cert-logo.fallback{font-weight:900;color:#16466f;font-size:10px;text-align:center;padding:3px}
+.cert-card h3{margin:0 0 2px;color:#174d77;font-size:14px;line-height:1.25}
+.cert-meta{margin:0;color:#52728a;font-weight:800;font-size:12px;line-height:1.25}
 .cert-card p{display:none}
-.cert-intro{margin:0 0 10px;color:#425567}
+.cert-intro{display:none}
 .cert-note{margin-top:12px;color:var(--muted);font-size:14px}
 .cert-training-list{margin-top:14px;background:#f8fcff;border:1px solid #c7ddeb;border-radius:14px;padding:13px}
 .cert-training-list strong{display:block;color:#174d77;margin-bottom:6px}
 .cert-training-list ul{margin:0 0 0 18px;padding:0}
 .cert-training-list li{margin:3px 0;color:#425567}
-@media(max-width:980px){.cert-grid{grid-template-columns:repeat(3,1fr)}}
-@media(max-width:640px){.cert-grid{grid-template-columns:repeat(2,1fr)}.cert-logo{width:48px;height:48px}.cert-card h3{font-size:12px}}
+@media(max-width:640px){.cert-card{grid-template-columns:32px 1fr}.cert-logo{width:28px;height:28px}.cert-card h3{font-size:13px}.cert-meta{font-size:11px}}

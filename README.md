@@ -107,3 +107,10 @@ Or, if using direct static upload, upload the contents of this ZIP root.
 - Certificates are now a standalone section before Experience / Skúsenosti.
 - Large certificate cards were removed; badge/logo size is smaller and closer to the PDF CV style.
 - Training is separated as a small related-training note below the main certificates.
+
+
+## v12 update
+
+- Removed the explanatory intro sentence from the Certifications section.
+- Reworked certifications into a vertical list layout.
+- Certification logos are now small bullet-like icons instead of large cards.
