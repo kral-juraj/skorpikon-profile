@@ -23,7 +23,13 @@
 .nav-dropdown-menu a:hover{background:#f1f8fc;text-decoration:none}
 .anchor-target{scroll-margin-top:90px}
 @media(max-width:820px){
-  .nav-dropdown{display:block;width:100%}
-  .nav-dropdown-menu{position:static;display:grid;box-shadow:none;margin-top:6px;min-width:0;width:100%;background:#f8fcff}
-  .nav-dropdown-trigger:after{display:none}
+  .nav-dropdown{position:relative;display:inline-flex;width:auto}
+  .nav-dropdown-menu{position:absolute;top:100%;left:0;display:none;min-width:min(310px,90vw);width:max-content;max-width:90vw;background:#fff;box-shadow:0 12px 28px rgba(20,55,80,.14)}
+  .nav-dropdown:hover .nav-dropdown-menu,
+  .nav-dropdown:focus-within .nav-dropdown-menu{display:grid}
+  .nav-dropdown-trigger:after{display:inline}
 }
+
+/* v9 hover-only dropdown fix:
+   Experience / Skúsenosti stays clickable.
+   Job list is hidden by default and appears only on hover or keyboard focus. */

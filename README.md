@@ -83,3 +83,12 @@ Or, if using direct static upload, upload the contents of this ZIP root.
 - Added dropdown navigation under Experience / Skúsenosti.
 - Each job section now has a stable anchor, for example `#job-02-michelin-connected-fleet`.
 - Users can jump directly to a specific job without scrolling through the full page.
+
+
+## v9 update
+
+- Fixed Experience / Skúsenosti dropdown behavior.
+- The job list is hidden by default.
+- The dropdown appears only on hover or keyboard focus.
+- Clicking Experience / Skúsenosti still jumps to the beginning of the experience section.
+- Clicking a specific job jumps directly to that job block.
