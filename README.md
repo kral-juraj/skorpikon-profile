@@ -194,3 +194,10 @@ Or, if using direct static upload, upload the contents of this ZIP root.
 
 - Fixed invalid HTML tag `<silna>` in CV HTML files.
 - Replaced it with valid `<strong>` markup.
+
+
+## v24 update
+
+- Fixed invalid Slovak HTML tag `<silná>` in addition to `<silna>`.
+- All variants were replaced with valid `<strong>` tags.
+- Verified that no `silna` / `silná` HTML tags remain.
