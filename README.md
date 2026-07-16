@@ -177,3 +177,20 @@ Or, if using direct static upload, upload the contents of this ZIP root.
 - Updated "7 roles / 7 pozícií" role-link labels to the requested company/project format.
 - Removed underline / dotted border styling from role links.
 - Added cache-busted CSS file `assets/css/style-v21-roles.css?v=21`.
+
+
+## v22 update
+
+- Updated EN and SK PDF CV files in `cv/`.
+- Web address is now shown as a normal contact line with a web/globe icon, not as "More details".
+- Core Skills legend dots were restored.
+- Skill-level dots are visually spaced and skill pills use a single clean bubble style.
+- Added editable HTML CV sources:
+  - `cv/Juraj_Kral_CV_EN.html`
+  - `cv/Juraj_Kral_CV_SK.html`
+
+
+## v23 update
+
+- Fixed invalid HTML tag `<silna>` in CV HTML files.
+- Replaced it with valid `<strong>` markup.
